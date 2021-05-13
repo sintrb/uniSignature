@@ -52,4 +52,5 @@
 ![图片3](https://ishop-static-qn.inruan.com/Fqb3o3dG_Zpv063CPow97AiWeT90.png)
 
 
-[点击查看更多](https://github.com/sintrb/uniSignature)
+[GitHub上点击查看更多](https://github.com/sintrb/uniSignature)
+[DCloud插件市场查看](https://ext.dcloud.net.cn/plugin?id=5010)
