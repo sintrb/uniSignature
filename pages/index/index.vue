@@ -9,7 +9,7 @@
 </template>
 
 <script>
-	import Signature from '@/components/sin-signature/index.vue'
+	import Signature from '@/components/sin-signature/sin-signature.vue'
 	export default {
 		data() {
 			return {

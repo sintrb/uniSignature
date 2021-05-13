@@ -118,6 +118,7 @@
 		},
 		mounted() {
 			this.prevView = this.value;
+			console.log('dx')
 		},
 		methods: {
 			onOK() {
