@@ -1,7 +1,7 @@
 <template>
 	<view class="content" style="padding: 10rpx;">
 		<view style="border: 1rpx dashed #555555;">
-			<uniSignature ref="sig" v-model="v"></uniSignature>
+			<Signature ref="sig" v-model="v"></Signature>
 		</view>
 		<button @tap="startSign">手动弹出</button>
 		<text style="overflow-wrap: break-word;">{{v}}</text>
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-	import uniSignature from '@/components/uniSignature/index.vue'
+	import Signature from '@/components/sin-signature/index.vue'
 	export default {
 		data() {
 			return {
@@ -17,7 +17,7 @@
 			}
 		},
 		components: {
-			uniSignature,
+			Signature,
 		},
 		onLoad() {
 

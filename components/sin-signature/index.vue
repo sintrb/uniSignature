@@ -375,6 +375,7 @@
 			flex-direction: column;
 			justify-content: center;
 			height: 100vh;
+			color: $uni-text-color;
 
 			text {
 				transform: rotate(90deg);
@@ -422,17 +423,17 @@
 
 				&.btn-clear {
 					// background-color: #fc2a07;
-					// color: white;
+					color: $uni-color-success;
 				}
 
 				&.btn-cancel {
 					// background-color: #eff4f4;
-					// color: #2d2d2d;
+					color: $uni-color-warning;
 				}
 
 				&.btn-ok {
-					// background-color: #1ee62b;
-					// color: white;
+					// background-color: $uni-color-success;
+					color: $uni-color-primary;
 				}
 			}
 		}
